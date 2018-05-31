@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/nature" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="HIKER'S WATCH"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/LattextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="146dp"
+        android:text="Latitude : "
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LongtextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/LattextView"
+        android:layout_marginTop="192dp"
+        android:text="Longitude : "
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/acctextView"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/LattextView"
+        android:layout_marginTop="237dp"
+        android:text="Accuracy : "
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/AlttextView"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/LattextView"
+        android:layout_marginBottom="258dp"
+        android:text="Altititude : "
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/AddtextView"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/LattextView"
+        android:layout_marginBottom="49dp"
+        android:text="Address:"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>
